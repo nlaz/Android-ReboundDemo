@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="handleClick"
+    android:background="@color/black"
+    >
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/object2"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:textColor="@color/blue"
+            android:textSize="120sp"/>
+        <TextView
+            android:id="@+id/object1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:layout_toLeftOf="@id/object2"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"
+            android:layout_marginRight="-5dp"
+            android:padding="0dp"
+            android:textSize="120sp"/>
+        <TextView
+            android:id="@+id/object3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:layout_marginLeft="-5dp"
+            android:padding="0dp"
+            android:layout_toRightOf="@id/object2"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="120sp"/>
+        </RelativeLayout>
+
+    <com.facebook.rebound.ui.SpringConfiguratorView
+        android:id="@+id/spring_configurator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        />
+</FrameLayout>
