@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/nlazaris/src/Android-ReboundDemo/ReboundDemo/app/build/intermediates/pre-dexed/debug/rebound-v0.3.3-bf8cb0c253e21981cbb088fff09c69f1ef735e3f.jar"
+        jar="/Users/nlazaris/src/Android-ReboundDemo/ReboundDemo/app/libs/rebound-v0.3.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0c0b3b2e6b17fdc50b1ab8dd8a8d0a16dd511c31"/>
+    <item
+        dex="/Users/nlazaris/src/Android-ReboundDemo/ReboundDemo/app/build/intermediates/pre-dexed/debug/classes-384c8f366235447e3b7c8ced0e0d9e360017427b.jar"
+        jar="/Users/nlazaris/src/Android-ReboundDemo/ReboundDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/nlazaris/src/Android-ReboundDemo/ReboundDemo/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
